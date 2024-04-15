@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="acc7feabb0484b159a4b3b9129e32212" Name="Diagram1">
+        <EntityTypeShape EntityType="demidovkvalModel.City" Width="1.5" PointX="5.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="demidovkvalModel.Country" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="demidovkvalModel.Events" Width="1.5" PointX="8" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="demidovkvalModel.Jury" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="demidovkvalModel.Moderators" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="demidovkvalModel.Organizers" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="demidovkvalModel.Participants" Width="1.5" PointX="3" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="demidovkvalModel.Specialities" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="demidovkvalModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="demidovkvalModel.FK_Events_City" ManuallyRouted="false" />
+        <AssociationConnector Association="demidovkvalModel.FK_Jury_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="demidovkvalModel.FK_Organizers_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="demidovkvalModel.FK_Participants_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="demidovkvalModel.FK_Jury_Specialities" ManuallyRouted="false" />
+        <AssociationConnector Association="demidovkvalModel.FK_Moderators_Specialities" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
